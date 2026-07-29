@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class PalindromeTrianglePattern {
+public class PalindromeTrianglePattern {
     public void printPattern(int n) {
         System.out.println("Palindrome Triangle Pattern: ");
         for(int i = 1; i <= n; i++){

@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class RhombusPattern {
+public class RhombusPattern {
     public void printPattern(int n) {
         System.out.println("Rhombus Pattern: ");
         for(int i = 0; i < n; i++) {

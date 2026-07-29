@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class NumberChangingPyramidPattern {
+public class NumberChangingPyramidPattern {
     public void printPattern(int n) {
         System.out.println("Number-changing Pyramid Pattern: ");
         int k = 1;

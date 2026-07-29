@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class MirrorImageTrianglePattern{
+public class MirrorImageTrianglePattern{
     public void printPattern(int n){
         System.out.println("Mirror Image Triangle Pattern: ");
         for(int i = 1; i <= n; i++){

@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class RightTrianglePyramid{
+public class RightTrianglePyramid{
     public void printPattern(int n){
         System.out.println("Right Triangle Pyramid: ");
         for(int i = 1; i <= n; i++){

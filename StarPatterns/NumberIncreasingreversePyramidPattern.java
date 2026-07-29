@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class NumberIncreasingreversePyramidPattern {
+public class NumberIncreasingreversePyramidPattern {
     public void printPattern(int n) {
         System.out.println("Number-increasing reverse Pyramid Pattern: ");
         for(int i = n; i >= 1; i--) {

@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class GapTriangleNumbers {
+public class GapTriangleNumbers {
     public void printPattern(int n) {
         System.out.println("Gap Triangle Numbers Pattern: ");
         int temp = n;

@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class NumberIncreasingPyramidPattern {
+public class NumberIncreasingPyramidPattern {
     public void printPattern(int n) {
         System.out.println("Number-increasing Pyramid Pattern: ");
         for(int i = 1; i <= n; i++) {

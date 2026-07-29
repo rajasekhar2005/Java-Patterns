@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class DiamondPattern{
+public class DiamondPattern{
     public void printPattern(int n){
         int temp1 = n - 1;
         int temp2 = 1;

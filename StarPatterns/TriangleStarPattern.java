@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class TriangleStarPattern{
+public class TriangleStarPattern{
     public void printPattern(int n){
         System.out.println("Triangle Star Pattern: ");
         for(int i = 1; i <= n; i++){

@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class PascalsTrianglePattern{
+public class PascalsTrianglePattern{
     public static void printPattern(int n){
         System.out.println("Pascal's Triangle Pattern: ");
         // for(int i = 1; i <= n; i++){

@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class SquareHollowPattern {
+public class SquareHollowPattern {
     public void printPattern(int n) {
         System.out.println("Square Hollow Pattern: ");
         for(int i = 0; i < n; i++) {

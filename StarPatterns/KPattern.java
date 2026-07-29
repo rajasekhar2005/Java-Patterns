@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class KPattern{
+public class KPattern{
     public void printPattern(int n){
         System.out.println("K Pattern: ");
         for(int i = 1; i <= n; i++){

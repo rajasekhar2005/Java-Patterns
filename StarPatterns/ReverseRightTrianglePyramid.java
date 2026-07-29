@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class ReverseRightTrianglePyramid{
+public class ReverseRightTrianglePyramid{
     public void printPattern(int n){
         System.out.println("Reverse Right Triangle Pyramid: ");
         for(int i = n; i >= 1; i--){

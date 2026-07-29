@@ -1,6 +1,6 @@
 package StarPatterns;
 
-class SquareFillPattern{
+public class SquareFillPattern{
     public void printPattern(int n){
         System.out.println("Square Fill Pattern: ");
         for(int i = 0; i < n; i++){
