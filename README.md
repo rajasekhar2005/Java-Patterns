@@ -19,11 +19,20 @@ package StarPatterns;
 This allows the classes to be imported and used from any Java program, for example:
 
 ```java
+import java.util.Scanner;
 import StarPatterns.*;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
-        SquareFillPattern.printPattern(5);
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter the number of rows: ");
+        int n = in.nextInt();
+
+        // Example usage of one of the pattern classes
+        GapTriangleNumbers pattern = new GapTriangleNumbers();
+        pattern.printPattern(n);
+
+        in.close();
     }
 }
 ```
