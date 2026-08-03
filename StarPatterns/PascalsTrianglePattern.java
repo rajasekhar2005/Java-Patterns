@@ -1,7 +1,7 @@
 package StarPatterns;
 
 public class PascalsTrianglePattern{
-    public static void printPattern(int n){
+    public void printPattern(int n){
         System.out.println("Pascal's Triangle Pattern: ");
         // for(int i = 1; i <= n; i++){
         //     if(n == 1){
@@ -21,17 +21,15 @@ public class PascalsTrianglePattern{
         //     }System.out.println();
         // }
         for(int i = 1; i <= n; i++){
-            if(n == 1){
-                System.out.println(1);
-                break;
-            }
+            // if(n == 1){
+            //     System.out.println(1);
+            //     break;
+            // }
             // printing spaces
             for(int j = 1; j <= n-i; j++){
                 System.out.print(" ");
             }
-            for(int k = 1; k <= i/2; k++){
-
-            }
+            
         }
     }
 /*

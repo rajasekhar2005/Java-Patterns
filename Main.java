@@ -8,7 +8,7 @@ class Main {
         int n = in.nextInt();
 
         // Example usage of one of the pattern classes
-        GapTriangleNumbers pattern = new GapTriangleNumbers();
+        PascalsTrianglePattern pattern = new PascalsTrianglePattern();
         pattern.printPattern(n);
 
         in.close();
