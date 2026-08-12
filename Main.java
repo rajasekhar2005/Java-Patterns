@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import StarPatterns.*;
+// import StarPatterns.*;
 
 class Main {
     public static void main(String[] args) {
