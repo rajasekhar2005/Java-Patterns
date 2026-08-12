@@ -5,11 +5,9 @@ class Main {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter the number of rows: ");
-        int n = in.nextInt();
+        // int n = in.nextInt();
 
-        // Example usage of one of the pattern classes
-        PascalsTrianglePattern pattern = new PascalsTrianglePattern();
-        pattern.printPattern(n);
+        System.out.println("Hello guys:");
 
         in.close();
     }
